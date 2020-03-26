@@ -125,6 +125,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -153,11 +154,11 @@
   </component>
   <component name="RunManager">
     <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdp.test.PizzaTestDrive" />
+      <option name="MAIN_CLASS_NAME" value="com.xgl.test.PizzaTestDrive" />
       <module name="lab03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jdp.test.*" />
+          <option name="PATTERN" value="com.xgl.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

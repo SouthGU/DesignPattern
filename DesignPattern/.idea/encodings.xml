@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/ingredientfactory/Sauce.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/ingredientfactory/ThickCrustDough.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/ingredientfactory/ThinCrustDough.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/ingredientfactory/VeryThinCrustDough.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/pizza/CheesePizza.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/pizza/Pizza.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/pizza/VeggiePizza.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/lab03/src/com/jdp/test/PizzaTestDrive.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/ingredientfactory/Sauce.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/ingredientfactory/ThickCrustDough.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/ingredientfactory/ThinCrustDough.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/ingredientfactory/VeryThinCrustDough.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/pizza/CheesePizza.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/pizza/Pizza.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/pizza/VeggiePizza.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lab03/src/com/xgl/test/PizzaTestDrive.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
