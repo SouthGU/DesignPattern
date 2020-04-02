@@ -18,15 +18,15 @@ public abstract class Pizza {
 	public abstract void prepare();
 	
 	public void bake(){
-		System.out.println("It is baking...");
+		System.out.println("烘烤");
 	}
 	
 	public void cut(){
-		System.out.println("It is cutting....");
+		System.out.println("切块");
 	}
 	
 	public void box(){
-		System.out.println("It is boxing.....");
+		System.out.println("装盒子");
 	}
 
 	//类的属性的getter()和setter()方法

@@ -6,12 +6,8 @@ import com.xgl.pizzastore.ChicagoPizzaStore;
 import com.xgl.pizzastore.NYPizzaStore;
 import com.xgl.pizzastore.PizzaStore;
 
-/**
- * 测试场景类
- * @author E103-teacher
- *
- */
-public class PizzaTestDrive {
+
+public class  PizzaTestDrive {
 
 	public static void main(String[] args) {
 		//多态：新开的3家PizzaStore的对象
