@@ -10,6 +10,8 @@ public class RedHeadBird implements Bird {
 	@Override
 	public void fly() {
 		System.out.println("I am flying a long distance!");
+		System.out.println("-----------------------------!");
+		System.out.println("##############µÚ¶şÌâ############!");
 	}
 
 }

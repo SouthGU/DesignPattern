@@ -28,7 +28,7 @@ public class AdapterTest {
 			System.out.println(integer);
 			
 		}
-		System.out.println("#######################################");
+		System.out.println("******************************");
 		//2
 		Iterator<Integer> iterator2 = list.iterator();
 		Enumeration<Integer> enumeration = new MyAdapter(iterator2);

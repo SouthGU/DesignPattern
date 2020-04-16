@@ -10,6 +10,8 @@ public class WildTurkey implements Turkey {
 	@Override
 	public void fly() {
 		System.out.println("I am flying a short distance!");
+		System.out.println("-----------------------------!");
+		System.out.println("----------µÚÒ»Ìâ----------!");
 	}
 
 }
