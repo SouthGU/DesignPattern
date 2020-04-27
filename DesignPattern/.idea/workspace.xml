@@ -1,113 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db001595-3ad4-42e5-a66b-69d1636f32cf" name="Default Changelist" comment="LAB04-THREE --&gt; 2020/4/2.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/lab04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/com/redis/jedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/test/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/lab05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/GeneratePrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/InLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/IntroduceExplanation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/ReplaceAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/Test/InLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/Test/IntroduceExplanation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/src/DDT/Test/ReplaceAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab05/test/DDT/TestGeneratePrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/lab06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/com/jdp/abstracttemplate/CaffineBeverageWithHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/com/jdp/concretetemplate/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/com/jdp/concretetemplate/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/com/jdp/test/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/com/jdp/test/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db001595-3ad4-42e5-a66b-69d1636f32cf" name="Default Changelist" comment="LAB07 --&gt; 2020/4/23.">
+      <change afterPath="$PROJECT_DIR$/lab08/lab08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/context/CandyMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/state/HasQuarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/state/NoQuarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/state/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/state/SoldoutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/state/WinningState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab08/src/com/state/test/StatePatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/mjdd/CouponManageImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/mjdd/FiboNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/BruschettaSauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/CaliforniaPizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/ChicagoPizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/Dough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/MarinaraSauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/NYPizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/PizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/PlumTomatoSauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/Sauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/ThickCrustDough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/ThinCrustDough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/ingredientfactory/VeryThinCrustDough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizza/CheesePizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizza/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizza/VeggiePizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizzastore/CaliforniaPizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizzastore/ChicagoPizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizzastore/NYPizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/pizzastore/PizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/classes/com/xgl/test/PizzaTestDrive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/test-classes/com/mjdd/CouponManageImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/target/test-classes/com/mjdd/FiboNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/first/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/first/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/first/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/first/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/fourth/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/fourth/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/fourth/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/third/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/second/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/second/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/second/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/second/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/third/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/third/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab01/com/jdp/third/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/L1/com/xgl/fourth/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/command/HighCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/command/HighCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/command/LowCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/command/LowCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/command/MediumCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/command/MediumCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/command/OffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/command/OffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/invoker/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/invoker/RemoteControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/receiver/CellingFan.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab02/com/xgl/receiver/CellingFan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab02/com/jdp/test/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Cooker.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Cooker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/CookerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/CookerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/MungBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/MungBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/OrderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/OrderQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/RoastDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/RoastDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04/src/lab03/com/jdp/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/lab03/com/xgl/Waiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05/src/L1/com/jdp/adaptee/WildTurkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/src/L1/com/jdp/adaptee/WildTurkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05/src/L2/com/jdp/adaptee/RedHeadBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/src/L2/com/jdp/adaptee/RedHeadBird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/WildTurkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/WildTurkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05/src/L4/com/jdp/adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/src/L4/com/jdp/adapter/AdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/BruschettaSauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/CaliforniaPizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/ChicagoPizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/Dough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/MarinaraSauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/NYPizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/PizzaIngredientFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/PlumTomatoSauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/Sauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/ThickCrustDough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/ThinCrustDough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/ingredientfactory/VeryThinCrustDough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizza/CheesePizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizza/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizza/VeggiePizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizzastore/CaliforniaPizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizzastore/ChicagoPizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizzastore/NYPizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/pizzastore/PizzaStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/com/xgl/test/PizzaTestDrive.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/lab03/target/" />
@@ -121,103 +27,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L3/com/jdp/test/ClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L1/com/jdp/target/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L1/com/jdp/adapter/TurkeyAdapter.java">
+        <entry file="file://$PROJECT_DIR$/lab08/src/com/state/context/CandyMachine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L1/com/jdp/adaptee/Turkey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L1/com/jdp/adaptee/WildTurkey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L2/com/jdp/adaptee/RedHeadBird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L4/com/jdp/adapter/AdapterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab06/src/com/jdp/test/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab06/src/com/jdp/test/TestDemo.java">
+        <entry file="file://$PROJECT_DIR$/lab08/src/com/state/test/StatePatternTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/WildTurkey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="-154">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -237,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab03/src/com/xgl/pizza/CheesePizza.java" />
         <option value="$PROJECT_DIR$/lab03/src/com/xgl/test/PizzaTestDrive.java" />
         <option value="$PROJECT_DIR$/lab03/pom.xml" />
         <option value="$PROJECT_DIR$/lab03/src/com/mjdd/CouponManageImpl.java" />
@@ -288,6 +111,7 @@
         <option value="$PROJECT_DIR$/lab05/src/L2/com/jdp/adaptee/RedHeadBird.java" />
         <option value="$PROJECT_DIR$/lab05/src/L4/com/jdp/adapter/AdapterTest.java" />
         <option value="$PROJECT_DIR$/lab06/src/com/jdp/test/TestDemo.java" />
+        <option value="$PROJECT_DIR$/lab08/src/com/state/state/State.java" />
       </list>
     </option>
   </component>
@@ -315,7 +139,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="-20" />
     <option name="width" value="2425" />
@@ -336,17 +160,12 @@
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="lab06" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +176,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OpenSource/ArcSoftFace/ArcSoftFaceDemo02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab08/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -367,11 +186,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab08\src" />
+      <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab07\src" />
       <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab06\src" />
       <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab05" />
       <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab05\src\L4" />
-      <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab05\src\L3" />
-      <recent name="D:\soft\Git\Repository\Repository07-Design pattern\DesignPattern\lab05\src\L2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mjdd" />
@@ -392,26 +211,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDemo">
+  <component name="RunManager" selected="Application.StatePatternTest">
     <configuration name="AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L4.com.jdp.adapter.AdapterTest" />
       <module name="lab05" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="L4.com.jdp.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L2.com.jdp.test.ClientTest" />
-      <module name="lab05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="L2.com.jdp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,12 +238,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L1.com.jdp.test.ClientTest" />
-      <module name="lab05" />
+    <configuration name="IteratorAndCompositePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.IteratorAndCompositePatternTest" />
+      <module name="lab07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="L1.com.jdp.test.*" />
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.state.test.StatePatternTest" />
+      <module name="lab08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.state.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatePatternTest" />
+        <item itemvalue="Application.IteratorAndCompositePatternTest" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.AdapterTest" />
         <item itemvalue="Application.ClientTest (2)" />
-        <item itemvalue="Application.ClientTest (1)" />
-        <item itemvalue="Application.ClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -488,6 +307,10 @@
       <workItem from="1586416754650" duration="3039000" />
       <workItem from="1586425558180" duration="483000" />
       <workItem from="1587027578783" duration="1545000" />
+      <workItem from="1587604746125" duration="2242000" />
+      <workItem from="1587634975392" duration="325000" />
+      <workItem from="1588065505228" duration="720000" />
+      <workItem from="1588211835486" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="敏捷迭代开发 --&gt; 2020/4/2.">
       <created>1585795169508</created>
@@ -545,7 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586394850656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LAB07 --&gt; 2020/4/23.">
+      <created>1587605070033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587605070033</updated>
+    </task>
+    <task id="LOCAL-00010" summary="LAB07_02 --&gt; 2020/4/28.">
+      <created>1588065694457</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588065694457</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -581,23 +418,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20461000" />
+    <option name="totallyTimeSpent" value="25757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.2922252" />
+      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.28820375" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Azure Explorer" order="7" />
+      <window_info id="Azure Explorer" order="7" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50708216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2592068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,7 +457,45 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28820375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Azure Explorer" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34844193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="7" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.30736545" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="16" />
+      <window_info anchor="right" id="Word Book" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -635,117 +509,16 @@
     <MESSAGE value="L2.COM.JDP --&gt; 2020/4/9." />
     <MESSAGE value="L3.COM.JDP --&gt; 2020/4/9." />
     <MESSAGE value="L4.COM.JDP.ADAPTER --&gt; 2020/4/9." />
-    <option name="LAST_COMMIT_MESSAGE" value="L4.COM.JDP.ADAPTER --&gt; 2020/4/9." />
+    <MESSAGE value="LAB07 --&gt; 2020/4/23." />
+    <MESSAGE value="LAB07_02 --&gt; 2020/4/23." />
+    <MESSAGE value="LAB07_02 --&gt; 2020/4/28." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB07_02 --&gt; 2020/4/28." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/jdp/command/OffCommand.java" />
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/jdp/invoker/RemoteControl.java" />
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/jdp/receiver/CellingFan.java" />
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/jdp/test/Client.java" />
-    <entry file="file://$PROJECT_DIR$/lab03/src/com/mjdd/CouponManageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="7" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab03/src/com/mjdd/FiboNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/xgl/Waiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/xgl/Chicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04/src/L1/com/xgl/first/SingletonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab02/com/xgl/test/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04/src/lab03/com/xgl/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04/src/com/redis/jedis.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L1/com/jdp/target/RedHeadBird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L2/com/jdp/target/WildTurkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L2/com/jdp/target/Turkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L2/com/jdp/adapter/BirdAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L2/com/jdp/adaptee/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/RedHeadBird.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -967,16 +740,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/WildTurkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab05/src/L4/com/jdp/adapter/AdapterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="594">
           <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
         </state>
       </provider>
@@ -988,14 +754,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab05/src/L3/com/jdp/targetadaptee/WildTurkey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab06/src/com/jdp/test/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/composite/composite/MenuComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/composite/leaf/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-843">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/iterator/menu/BreakfastMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/iterator/menu/DessertMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/iterator/menu/DinnerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/iterator/menu/NewMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/iterator/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/iterator/menu/LunchMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/src/com/test/IteratorAndCompositePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/state/WinningState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/state/HasQuarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../java/JDK/JDK/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="197" column="41" lean-forward="true" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/state/SoldoutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/state/SoldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/state/NoQuarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/context/CandyMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/src/com/state/test/StatePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
