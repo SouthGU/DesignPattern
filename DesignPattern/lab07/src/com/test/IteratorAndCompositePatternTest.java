@@ -10,37 +10,37 @@ import com.iterator.menu.NewMenu;
 /**
  * 
  * @ClassName: IteratorAndCompositePatternTest
- * @Description: µü´úÆ÷Ä£Ê½ºÍ×éºÏÄ£Ê½-Ó¦ÓÃ³ÌĞòÖ´ĞĞÈë¿Ú
+ * @Description: è¿­ä»£å™¨æ¨¡å¼å’Œç»„åˆæ¨¡å¼-åº”ç”¨ç¨‹åºæ‰§è¡Œå…¥å£
  * @author zzw
- * @date 2019Äê6ÔÂ13ÈÕ ÉÏÎç10:51:47
+ * @date 2019å¹´6æœˆ13æ—¥ ä¸Šåˆ10:51:47
  */
 public class IteratorAndCompositePatternTest {
 
 	public static void main(String[] args) {
-		BreakfastMenu breakfastMenu = new BreakfastMenu(); // Ôç²Í
-		LunchMenu lunchMenu = new LunchMenu();             // Îç²Í
-		DinnerMenu dinnerMenu = new DinnerMenu();          // Íí²Í
-		DessertMenu dessertMenu = new DessertMenu();       // Ìğµã
-		// Ôç²ÍÉèÖÃ²ËÆ·
-		breakfastMenu.addComponent(new MenuItem("¼¦µ°", "egg", false, 2.0));
-		breakfastMenu.addComponent(new MenuItem("¶¹½¬", "Soy milk", true, 2.5));
-		breakfastMenu.addComponent(new MenuItem("Å£ÄÌ", "milk", false, 3.5));
-		breakfastMenu.addComponent(new MenuItem("Ãæ°ü", "bread", true, 2.0));
-		// Íí²ÍÉèÖÃ²ËÆ·
-		dinnerMenu.addComponent(new MenuItem("Å£ÈâÃæ", "beef noodle", false, 10.0));
-		dinnerMenu.addComponent(new MenuItem("ËØÃæ", "vegetarian noodle", true, 6.0));
-		dinnerMenu.addComponent(new MenuItem("Ë®¹ûÉ³À­", "fruit salad", true, 8.0));
-		dinnerMenu.addComponent(new MenuItem("³´·¹", "fried rice", true, 12.0));
-		// ÌğµãÉèÖÃ²ËÆ·
-		dessertMenu.addComponent(new MenuItem("ÃÛ½¤", "candy", true, 5.0));
-		dessertMenu.addComponent(new MenuItem("Ìğµã", "dessert", true, 8.0));
-		// Îç²ÍÉèÖÃ²ËÆ·
-		lunchMenu.addComponent(new MenuItem("Å£ÈâÃæ", "beef noodle", false, 10.0));
+		BreakfastMenu breakfastMenu = new BreakfastMenu(); // æ—©é¤
+		LunchMenu lunchMenu = new LunchMenu();             // åˆé¤
+		DinnerMenu dinnerMenu = new DinnerMenu();          // æ™šé¤
+		DessertMenu dessertMenu = new DessertMenu();       // ç”œç‚¹
+		// æ—©é¤è®¾ç½®èœå“
+		breakfastMenu.addComponent(new MenuItem("é¸¡è›‹", "egg", false, 2.0));
+		breakfastMenu.addComponent(new MenuItem("è±†æµ†", "Soy milk", true, 2.5));
+		breakfastMenu.addComponent(new MenuItem("ç‰›å¥¶", "milk", false, 3.5));
+		breakfastMenu.addComponent(new MenuItem("é¢åŒ…", "bread", true, 2.0));
+		// æ™šé¤è®¾ç½®èœå“
+		dinnerMenu.addComponent(new MenuItem("ç‰›è‚‰é¢", "beef noodle", false, 10.0));
+		dinnerMenu.addComponent(new MenuItem("ç´ é¢", "vegetarian noodle", true, 6.0));
+		dinnerMenu.addComponent(new MenuItem("æ°´æœæ²™æ‹‰", "fruit salad", true, 8.0));
+		dinnerMenu.addComponent(new MenuItem("ç‚’é¥­", "fried rice", true, 12.0));
+		// ç”œç‚¹è®¾ç½®èœå“
+		dessertMenu.addComponent(new MenuItem("èœœé¥¯", "candy", true, 5.0));
+		dessertMenu.addComponent(new MenuItem("ç”œç‚¹", "dessert", true, 8.0));
+		// åˆé¤è®¾ç½®èœå“
+		lunchMenu.addComponent(new MenuItem("ç‰›è‚‰é¢", "beef noodle", false, 10.0));
 		lunchMenu.addComponent(dessertMenu);
-		lunchMenu.addComponent(new MenuItem("³´·¹", "fried rice", true, 12.0));
+		lunchMenu.addComponent(new MenuItem("ç‚’é¥­", "fried rice", true, 12.0));
 		
-		NewMenu menu = new NewMenu();                      // ºÏ²¢ºóµÄĞÂ²Ëµ¥
-		menu.addComponent(breakfastMenu);				   // ¼ÓÈëÔç¡¢ÖĞ¡¢Íí²Í²ËÆ·
+		NewMenu menu = new NewMenu();                      // åˆå¹¶åçš„æ–°èœå•
+		menu.addComponent(breakfastMenu);				   // åŠ å…¥æ—©ã€ä¸­ã€æ™šé¤èœå“
 		menu.addComponent(lunchMenu);
 		menu.addComponent(dinnerMenu);
 		menu.operation();	
